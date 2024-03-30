@@ -1,0 +1,97 @@
+.colors, .fonts, .text-styles {
+    border: 2px solid #333;
+    padding: 10px;
+    width: 950px;
+    margin: 5px;
+}
+
+#blue {
+    background-color: blue;
+    text-align: center;
+    color: white;
+
+}
+#pink {
+    background-color: pink;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+
+#mint-green {
+    background-color: lightgreen;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+
+#beige {
+    background-color: beige;
+    text-align: center;
+    display: inline-block;
+}
+
+#beige, #mint-green, #pink, #blue{
+    width: 300px;
+    height: 50px;
+    padding-top: 15px;
+    display: inline-block;
+    padding-top: 30px;
+    font-size: 15px;
+}
+
+#fonts{
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.title{
+    text-decoration: underline;
+}
+.poppins, .tac-one, .roboto{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.poppins{
+    font-family: Poppins;
+}
+
+.tac-one{
+    font-family: "Tac One";
+    font-size: 20px;
+}
+
+.roboto{
+    font-family: Roboto;
+}
+
+.bold{
+    font-weight: 900;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.text-styles {
+    padding-bottom: 15px;
+}
+
+.main-page {
+    font-weight: 700;
+    font-size: 40px;
+    font-family: "Tac One";
+}
+
+.subheading{
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Poppins;
+}
+
+.paragraph{
+    font-weight: normal;
+    font-size: 14px;
+    font-family: Poppins;
+}
